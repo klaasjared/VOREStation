@@ -190,7 +190,7 @@
 "dZ" = (/obj/effect/floor_decal/corner/grey/diagonal,/obj/structure/table/standard,/obj/item/weapon/book/manual/chef_recipes,/obj/item/weapon/reagent_containers/food/condiment/enzyme,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/segment,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/awaymission/suesdiner/kitchen)
 "ea" = (/obj/structure/mopbucket,/obj/item/weapon/mop,/obj/effect/floor_decal/rust,/obj/machinery/power/apc{dir = 1; pixel_y = 25},/obj/structure/cable/cyan{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled{icon_state = "techmaint"},/area/awaymission/suesdiner/maint)
 "eb" = (/obj/machinery/atmospherics/pipe/tank/air/full,/obj/effect/floor_decal/industrial/warning{dir = 1},/turf/simulated/floor/plating,/area/awaymission/suesdiner/airlocks)
-"ec" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled{icon_state = "techmaint"},/area/awaymission/suesdiner/maint)
+"ec" = (/obj/machinery/light/small{dir = 1},/mob/living/bot/cleanbot{name = "Mr. Sweepy"},/turf/simulated/floor/tiled{icon_state = "techmaint"},/area/awaymission/suesdiner/maint)
 "ed" = (/obj/structure/table/rack/shelf,/obj/random/soap,/obj/item/weapon/reagent_containers/glass/bucket,/obj/item/weapon/storage/bag/trash,/turf/simulated/floor/tiled{icon_state = "techmaint"},/area/awaymission/suesdiner/maint)
 "ee" = (/obj/random/junk,/turf/simulated/floor/plating,/area/awaymission/suesdiner/maint)
 "ef" = (/obj/structure/disposalpipe/segment,/turf/simulated/floor/plating,/area/awaymission/suesdiner/maint)
@@ -218,7 +218,7 @@
 "eB" = (/obj/effect/floor_decal/corner/grey/diagonal,/obj/machinery/alarm{dir = 4; pixel_x = -22; step_x = -5},/obj/effect/decal/remains/robot,/obj/effect/decal/cleanable/blood/oil,/turf/simulated/floor/tiled/white,/area/awaymission/suesdiner/kitchen)
 "eC" = (/obj/effect/floor_decal/corner/grey/diagonal,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/tiled/white,/area/awaymission/suesdiner/kitchen)
 "eD" = (/obj/effect/floor_decal/corner/grey/diagonal,/obj/structure/sink{dir = 4; pixel_x = 11},/turf/simulated/floor/tiled/white,/area/awaymission/suesdiner/kitchen)
-"eE" = (/obj/machinery/door/airlock{name = "Janitorial Closet"; req_access = list(26)},/obj/machinery/door/firedoor,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled{icon_state = "techmaint"},/area/awaymission/suesdiner/maint)
+"eE" = (/obj/machinery/door/airlock{name = "Janitorial Closet"},/obj/machinery/door/firedoor,/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled{icon_state = "techmaint"},/area/awaymission/suesdiner/maint)
 "eF" = (/obj/structure/extinguisher_cabinet,/turf/simulated/wall,/area/awaymission/suesdiner/maint)
 "eG" = (/obj/machinery/door/airlock/multi_tile/metal,/obj/machinery/door/firedoor/multi_tile,/turf/simulated/floor/tiled{icon_state = "monotile"},/area/awaymission/suesdiner/side_hall)
 "eH" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/disposalpipe/junction{dir = 1},/obj/structure/cable/cyan{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled{icon_state = "monotile"},/area/awaymission/suesdiner/hydro)
@@ -438,7 +438,7 @@
 "Ka" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced,/turf/simulated/floor/plating,/area/mine/explored)
 "Kj" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/structure/window/reinforced{dir = 4},/obj/machinery/door/firedoor/glass,/turf/simulated/floor,/area/awaymission/suesdiner/airlocks)
 "Kn" = (/obj/structure/closet/secure_closet/personal/cabinet,/turf/simulated/floor/carpet,/area/awaymission/suesdiner/room1)
-"KH" = (/obj/effect/floor_decal/corner/red/diagonal,/obj/structure/table/steel,/turf/simulated/floor/tiled/white,/area/awaymission/suesdiner/main_area)
+"KH" = (/obj/effect/floor_decal/corner/red/diagonal,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/white,/area/awaymission/suesdiner/main_area)
 "Lk" = (/obj/structure/closet/secure_closet/personal/cabinet,/turf/simulated/floor/carpet,/area/awaymission/suesdiner/room2)
 "Lw" = (/obj/structure/grille,/obj/structure/window/reinforced/full,/obj/machinery/door/firedoor/glass,/turf/simulated/floor/plating,/area/mine/explored)
 "LA" = (/obj/machinery/power/apc{pixel_y = -25},/obj/structure/cable/cyan,/turf/simulated/floor/tiled,/area/awaymission/suesdiner/airlocks)
@@ -460,7 +460,6 @@
 "TQ" = (/obj/effect/decal/remains/human,/obj/effect/alien/resin,/turf/simulated/mineral/floor/vacuum,/area/mine/explored)
 "Uw" = (/obj/structure/table/woodentable,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/carpet,/area/awaymission/suesdiner/room1)
 "Vw" = (/turf/simulated/floor/plating,/area/mine/explored)
-"VT" = (/obj/item/frame/apc,/turf/simulated/mineral/floor/cave,/area/mine/explored)
 "VU" = (/turf/simulated/wall,/area/awaymission/suesdiner/hydro)
 "Wd" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 5},/obj/structure/cable/cyan{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/floor/carpet,/area/awaymission/suesdiner/room1)
 "Wz" = (/obj/machinery/airlock_sensor{frequency = 448; id_tag = "civ_airlock_sensor"; pixel_y = -25},/obj/effect/map_helper/airlock/sensor/chamber_sensor,/turf/simulated/floor/tiled,/area/awaymission/suesdiner/airlocks)
@@ -472,7 +471,7 @@
 "YF" = (/obj/structure/barricade,/turf/simulated/floor/plating,/area/awaymission/suesdiner/airlocks)
 "YX" = (/obj/machinery/gateway{dir = 9},/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/reinforced,/area/mine/explored)
 "Zb" = (/turf/simulated/wall,/area/awaymission/suesdiner/power)
-"Zc" = (/mob/living/bot/cleanbot{desc = "A RobTek Mr. Handy robot. This one appears to be malfunctioning..."; icon = 'icons/mob/robots_vr.dmi'; icon_state = "handy-standard"; name = "Mr. Sweepy"},/turf/simulated/floor/tiled{icon_state = "monotile"},/area/awaymission/suesdiner/side_hall)
+"Zc" = (/obj/item/frame/apc,/turf/simulated/mineral/floor/cave,/area/mine/explored)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -539,7 +538,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririfNfNPXfNriaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririfNuqfNHeririaaaaaaaaaariririririaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririfNfNfNfNririririaaaaaaaaaaaaaaaaaaaaVUcabOcabObPbQtnbRbSbTbUbVbWpiUwWdCUbXbqbqbrbYavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririfNfNPqriririaaaaaaaaririririririririririaaaaaaaaaaaaaaaaaaaaaaririririririfNfNririririririaaaaaaaaaaaaaaaaaaVUbZtncatntncbqbVUcchucdcebWcfKnBKcgpiahahaIchavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririfNriririaaaaaaaaririririririririririririaaaaaaaaaaaaaaaaaaaariririririririririririririririaaaaaaaaaaaaaaaaVUcatncjckfJclckcmcncocpcrcsmdmdmdmdmdahahaIaRWXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririaaaaaaaariririririririririririririaaaaaaaaaaaaaaaaaaaariririririririririririririririaaaaaaaaaaaaaaaaVUcttnTEtntncuqbVUcvcwcxcyczmdcBcBcCmdahZcaIbfavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririaaaaaaaariririririririririririririaaaaaaaaaaaaaaaaaaaariririririririririririririririaaaaaaaaaaaaaaaaVUcttnTEtntncuqbVUcvcwcxcyczmdcBcBcCmdahahaIbfavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririaaaaaaaaaariririririririririririririririaaaaaaaaaaaaaaaaaaririririririririririririririaaaaaaaaaaaaaaaaVUcDtneHfbcEcHJeVUcIcKcLcMcNmdcOcPcQcRbqbqbrbfavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririririririririririririririririaaaaaaaaaaaaaaaariririririririririririririririaaaaaaaaaaaaaabhbhhcaffxtktktktktktkcScTcUmdcVcWcXmdahahaIbfavaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririririririririririririririririririaaaaaaaaaaaaaaaaaariririririririririririririaaaaaaaaaaaaaabhfHfBcYfLtkcZdadbdctkdddebWmdmdmdmdmddfdgdhdiWXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -552,7 +551,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririririririririri
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririririririririririririririririggggggririririririririririririeJgCTjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabAdoeMbheNeOdnePeQeReSeTeUeVeWeXeYeZfafcfdfefffgfhfijQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririririririririririhfIsggggggggggririririririririririyzMofjKjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabAdofkbhfndjfBfBfofgfpfqftfufvfwftftftfyfzfAftftfCfDjQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririririririririhpVwVwGchfggggggggBEriririririririririIXLOfUKjaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabAbNaPbhbhbhfFbhbhfgfGfgfgfgfIfgIdSrfgfgfKfPfgfgfQfRClaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririririririririGcYXdKfOVThpgggghfOLJJLwOLhpriririribAfTYFYFTjbAfSfSfSfSbAfSfSfSfSfVfSfSfSfSbAfWfXjQfYfZfgeTjQgagbfKgcfKgdgcfKfKgcfKfKfgfgfgfQfRClaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririririririririGcYXdKfOZchpgggghfOLJJLwOLhpriririribAfTYFYFTjbAfSfSfSfSbAfSfSfSfSfVfSfSfSfSbAfWfXjQfYfZfgeTjQgagbfKgcfKgdgcfKfKgcfKfKfgfgfgfQfRClaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririririririririririhptGimgqgrGcgggeVwggghWIggnegjDYNpNpgigkAXglgngogtguoHoHmhJCgogugwgxgwgwgygzgygAgBgDgEgFgGgGgHgIXXgJfPfPfPgKfPfPfPfPfPfgfgfgfgfQfRClaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaririririririririririhpVwpmgLQJggVwGcggIUVwVwGctFmfGcnzLOLOgPvPgCgQgMLAtDCGgCgCgOgMgCgCgMgCgCgCgRgCbAmegSjQgTgUgUgVgWgWgWgWgWgXgYgZhahahahahahahahahbhdjQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaariririririririririririhpVwGcVwVwhphfVwhfggvhKaKahpKaKahghgbATjgCfUTjbAhghghghgbAhghghghgfVhghghghgbAbAbAjQfgfgSrfgfgfgfgfgfghhfghifgfgfgfgfgfgfgfgfPhjjQaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
