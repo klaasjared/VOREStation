@@ -27,3 +27,14 @@
 
 /turf/simulated/floor/tiled/freezer/cold
 	temperature = T0C - 5
+
+//////////////////////////////Moon Turf//////////////////////////////
+
+/decl/flooring/grass/moon
+	name = "growth"
+	desc = "A natural fungus that has adapted to the hostile climate."
+	flags = TURF_REMOVE_SHOVEL
+	icon = 'icons/turf/outdoors_vr.dmi'
+	icon_base = "grass_moon"
+	build_type = /obj/item/stack/tile/grass/moon
+	has_base_range = 1
