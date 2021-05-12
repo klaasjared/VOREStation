@@ -45,3 +45,14 @@
 /obj/item/weapon/circuitboard/mecha/weasel/main
 		name = T_BOARD_MICRO_MECHA("Weasel central control")
 		icon_state = "mainboard"
+
+/obj/item/weapon/circuitboard/mecha/janimech
+		origin_tech = list(TECH_DATA = 3)
+
+/obj/item/weapon/circuitboard/mecha/janimech/peripherals
+		name = T_BOARD_MICRO_MECHA("Jones peripherals control")
+		icon_state = "mcontroller"
+
+/obj/item/weapon/circuitboard/mecha/janimech/main
+		name = T_BOARD_MICRO_MECHA("Jones central control")
+		icon_state = "mainboard"

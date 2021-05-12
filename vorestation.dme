@@ -1047,6 +1047,7 @@
 #include "code\game\mecha\micro\utility.dm"
 #include "code\game\mecha\space\hoverpod.dm"
 #include "code\game\mecha\space\shuttle.dm"
+#include "code\game\mecha\working\janimech.dm"
 #include "code\game\mecha\working\ripley.dm"
 #include "code\game\mecha\working\ripley_vr.dm"
 #include "code\game\mecha\working\working.dm"

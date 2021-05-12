@@ -138,3 +138,49 @@
 	name="Weasel Legs"
 	icon_state = "weasel-leg-all"
 	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 3, TECH_ENGINEERING = 3)
+
+////////////Jones Mech Parts////////////
+
+/obj/item/mecha_parts/chassis/jones
+	name = "Jones Chassis"
+	icon = 'icons/mecha/mech_construct_vr.dmi'
+	icon_state = "jones-chassis"
+
+	New()
+		..()
+		construct = new /datum/construction/mecha/jones_chassis(src)
+
+/obj/item/mecha_parts/part/jones_torso
+	name="Jones Torso"
+	desc="A torso part of Jones L-APLU. Contains power unit and processing core."
+	icon = 'icons/mecha/mech_construct_vr.dmi'
+	icon_state = "jones-torso"
+	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 2, TECH_BIO = 2, TECH_ENGINEERING = 2)
+
+/obj/item/mecha_parts/part/jones_left_arm
+	name="Jones Left Arm"
+	desc="A Jones L-APLU left arm. Data and power sockets are compatible with most exosuit tools."
+	icon = 'icons/mecha/mech_construct_vr.dmi'
+	icon_state = "ripley_l_arm"
+	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+
+/obj/item/mecha_parts/part/jones_right_arm
+	name="Jones Right Arm"
+	desc="A Jones L-APLU right arm. Data and power sockets are compatible with most exosuit tools."
+	icon = 'icons/mecha/mech_construct_vr.dmi'
+	icon_state = "ripley_r_arm"
+	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+
+/obj/item/mecha_parts/part/jones_left_leg
+	name="Jones Left Leg"
+	desc="A Jones L-APLU left leg. Contains somewhat complex servodrives and balance maintaining systems."
+	icon = 'icons/mecha/mech_construct_vr.dmi'
+	icon_state = "ripley_l_leg"
+	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 2, TECH_ENGINEERING = 2)
+
+/obj/item/mecha_parts/part/jones_right_leg
+	name="Jones Right Leg"
+	desc="A Jones L-APLU right leg. Contains somewhat complex servodrives and balance maintaining systems."
+	icon = 'icons/mecha/mech_construct_vr.dmi'
+	icon_state = "ripley_r_leg"
+	origin_tech = list(TECH_DATA = 2, TECH_MATERIAL = 2, TECH_ENGINEERING = 2)

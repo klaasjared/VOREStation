@@ -193,3 +193,50 @@
 	req_tech = list(TECH_MATERIAL = 5, TECH_COMBAT = 5, TECH_BIO = 6)
 	materials = list(DEFAULT_WALL_MATERIAL = 8000, MAT_COPPER = 4000, "gold" = 2000, "silver" = 1750, "diamond" = 1500)
 	build_path = /obj/item/mecha_parts/mecha_equipment/weapon/energy/medigun
+
+////////////Jones Mechfab Designs////////////
+
+/datum/design/item/mechfab/janimech
+	category = list("Jones")
+
+/datum/design/item/mechfab/janimech/chassis
+	name = "Jones Chassis"
+	id = "jones_chassis"
+	build_path = /obj/item/mecha_parts/chassis/jones
+	time = 10
+	materials = list(DEFAULT_WALL_MATERIAL = 8000)
+
+/datum/design/item/mechfab/janimech/torso
+	name = "Jones Torso"
+	id = "jones_torso"
+	build_path = /obj/item/mecha_parts/part/jones_torso
+	time = 20
+	materials = list(DEFAULT_WALL_MATERIAL = 16000, "glass" = 8125)
+
+/datum/design/item/mechfab/janimech/left_arm
+	name = "Jones Left Arm"
+	id = "jones_left_arm"
+	build_path = /obj/item/mecha_parts/part/jones_left_arm
+	time = 15
+	materials = list(DEFAULT_WALL_MATERIAL = 9500)
+
+/datum/design/item/mechfab/janimech/right_arm
+	name = "Jones Right Arm"
+	id = "jones_right_arm"
+	build_path = /obj/item/mecha_parts/part/jones_right_arm
+	time = 15
+	materials = list(DEFAULT_WALL_MATERIAL = 9500)
+
+/datum/design/item/mechfab/janimech/left_leg
+	name = "Jones Left Leg"
+	id = "jones_left_leg"
+	build_path = /obj/item/mecha_parts/part/jones_left_leg
+	time = 15
+	materials = list(DEFAULT_WALL_MATERIAL = 15000)
+
+/datum/design/item/mechfab/janimech/right_leg
+	name = "Jones Right Leg"
+	id = "jones_right_leg"
+	build_path = /obj/item/mecha_parts/part/jones_right_leg
+	time = 15
+	materials = list(DEFAULT_WALL_MATERIAL = 15000)
