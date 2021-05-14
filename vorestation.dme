@@ -2233,6 +2233,7 @@
 #include "code\modules\food\kitchen\smartfridge\engineering.dm"
 #include "code\modules\food\kitchen\smartfridge\hydroponics.dm"
 #include "code\modules\food\kitchen\smartfridge\medical.dm"
+#include "code\modules\food\kitchen\smartfridge\mining.dm"
 #include "code\modules\food\kitchen\smartfridge\smartfridge.dm"
 #include "code\modules\food\kitchen\smartfridge\smartfridge_vr.dm"
 #include "code\modules\gamemaster\defines.dm"
